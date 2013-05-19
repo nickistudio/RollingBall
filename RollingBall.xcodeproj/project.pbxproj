@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		E12331EC1745EEE100154DC8 /* glew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glew.c; sourceTree = "<group>"; };
 		E12331EE1745EEEA00154DC8 /* glew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		E163CAB5174993D5009776D5 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 		E1805A4D1742D12B00A4CFE4 /* RollingBall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RollingBall; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1805A501742D12B00A4CFE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1805A591742D19F00A4CFE4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -63,6 +64,7 @@
 				E1805A4F1742D12B00A4CFE4 /* Project */,
 				E1805A4E1742D12B00A4CFE4 /* Products */,
 				E1805A6F1743018100A4CFE4 /* Frameworks */,
+				E163CAB5174993D5009776D5 /* Readme.md */,
 			);
 			sourceTree = "<group>";
 		};
