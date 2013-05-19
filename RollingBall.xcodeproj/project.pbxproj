@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12331E71745D8E000154DC8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1805A501742D12B00A4CFE4 /* main.cpp */; };
+		E12331ED1745EEE100154DC8 /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = E12331EC1745EEE100154DC8 /* glew.c */; };
+		E1805A5A1742D19F00A4CFE4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1805A591742D19F00A4CFE4 /* OpenGL.framework */; };
+		E1805A5C1742D1A900A4CFE4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1805A5B1742D1A900A4CFE4 /* GLUT.framework */; };
+		E1805A641742FEDA00A4CFE4 /* sphere.1024 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1805A631742FECB00A4CFE4 /* sphere.1024 */; };
+		E1805A6C1743004800A4CFE4 /* fFirework.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1805A691742FFA500A4CFE4 /* fFirework.glsl */; };
+		E1805A6D1743004800A4CFE4 /* vFirework.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1805A6B1742FFEB00A4CFE4 /* vFirework.glsl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1805A4B1742D12B00A4CFE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				E1805A6C1743004800A4CFE4 /* fFirework.glsl in CopyFiles */,
+				E1805A6D1743004800A4CFE4 /* vFirework.glsl in CopyFiles */,
+				E1805A641742FEDA00A4CFE4 /* sphere.1024 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E12331EC1745EEE100154DC8 /* glew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glew.c; sourceTree = "<group>"; };
+		E12331EE1745EEEA00154DC8 /* glew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		E1805A4D1742D12B00A4CFE4 /* RollingBall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RollingBall; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1805A501742D12B00A4CFE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E1805A591742D19F00A4CFE4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E1805A5B1742D1A900A4CFE4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		E1805A631742FECB00A4CFE4 /* sphere.1024 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.1024; sourceTree = "<group>"; };
+		E1805A691742FFA500A4CFE4 /* fFirework.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = fFirework.glsl; sourceTree = "<group>"; };
+		E1805A6B1742FFEB00A4CFE4 /* vFirework.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = vFirework.glsl; sourceTree = "<group>"; };
+		E1805A721743024D00A4CFE4 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1805A4A1742D12B00A4CFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1805A5C1742D1A900A4CFE4 /* GLUT.framework in Frameworks */,
+				E1805A5A1742D19F00A4CFE4 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1805A441742D12B00A4CFE4 = {
+			isa = PBXGroup;
+			children = (
+				E1805A4F1742D12B00A4CFE4 /* Project */,
+				E1805A4E1742D12B00A4CFE4 /* Products */,
+				E1805A6F1743018100A4CFE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1805A4E1742D12B00A4CFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1805A4D1742D12B00A4CFE4 /* RollingBall */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1805A4F1742D12B00A4CFE4 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				E1805A721743024D00A4CFE4 /* main.h */,
+				E1805A501742D12B00A4CFE4 /* main.cpp */,
+				E1D98AD71744BA47009F5804 /* Libraries */,
+				E1805A70174301AF00A4CFE4 /* Shaders */,
+				E1805A711743022500A4CFE4 /* Supporting Files */,
+			);
+			name = Project;
+			path = RollingBall;
+			sourceTree = "<group>";
+		};
+		E1805A6F1743018100A4CFE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1805A5B1742D1A900A4CFE4 /* GLUT.framework */,
+				E1805A591742D19F00A4CFE4 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1805A70174301AF00A4CFE4 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				E1805A691742FFA500A4CFE4 /* fFirework.glsl */,
+				E1805A6B1742FFEB00A4CFE4 /* vFirework.glsl */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		E1805A711743022500A4CFE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1805A631742FECB00A4CFE4 /* sphere.1024 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1D98AD71744BA47009F5804 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E12331EC1745EEE100154DC8 /* glew.c */,
+				E12331EE1745EEEA00154DC8 /* glew.h */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1805A4C1742D12B00A4CFE4 /* RollingBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1805A561742D12C00A4CFE4 /* Build configuration list for PBXNativeTarget "RollingBall" */;
+			buildPhases = (
+				E1805A491742D12B00A4CFE4 /* Sources */,
+				E1805A4A1742D12B00A4CFE4 /* Frameworks */,
+				E1805A4B1742D12B00A4CFE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollingBall;
+			productName = CS6653ASG4;
+			productReference = E1805A4D1742D12B00A4CFE4 /* RollingBall */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1805A451742D12B00A4CFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = NickiStudio;
+			};
+			buildConfigurationList = E1805A481742D12B00A4CFE4 /* Build configuration list for PBXProject "RollingBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1805A441742D12B00A4CFE4;
+			productRefGroup = E1805A4E1742D12B00A4CFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1805A4C1742D12B00A4CFE4 /* RollingBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1805A491742D12B00A4CFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12331E71745D8E000154DC8 /* main.cpp in Sources */,
+				E12331ED1745EEE100154DC8 /* glew.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1805A541742D12C00A4CFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1805A551742D12C00A4CFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1805A571742D12C00A4CFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/lib/,
+					"\"$(SRCROOT)\"",
+				);
+				HEADER_SEARCH_PATHS = /usr/include/;
+				LIBRARY_SEARCH_PATHS = /usr/lib/;
+				PRODUCT_NAME = RollingBall;
+			};
+			name = Debug;
+		};
+		E1805A581742D12C00A4CFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/lib/,
+					"\"$(SRCROOT)\"",
+				);
+				HEADER_SEARCH_PATHS = /usr/include/;
+				LIBRARY_SEARCH_PATHS = /usr/lib/;
+				PRODUCT_NAME = RollingBall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1805A481742D12B00A4CFE4 /* Build configuration list for PBXProject "RollingBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1805A541742D12C00A4CFE4 /* Debug */,
+				E1805A551742D12C00A4CFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1805A561742D12C00A4CFE4 /* Build configuration list for PBXNativeTarget "RollingBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1805A571742D12C00A4CFE4 /* Debug */,
+				E1805A581742D12C00A4CFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1805A451742D12B00A4CFE4 /* Project object */;
+}
